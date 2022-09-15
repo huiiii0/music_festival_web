@@ -1,0 +1,80 @@
+﻿	* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box
+		}
+
+		ul,
+		li,
+		ol {
+			padding: 0;
+			margin: 0;
+			list-style: none
+		}
+
+
+		section {
+			width: 100%;
+			height: auto;
+			overflow: hidden;
+		}
+
+		.page {
+			width: 100%;
+			height: 100vh;
+			overflow: hidden;
+			position: relative;
+		}
+
+		span {
+			padding: 0 10px;
+		}
+
+		nav ul li a:hover {
+			color: #ff4198;
+			transition: all 0.3s;
+		}
+
+		.section1 .secbox .secbox1 button:hover {
+			background-color: #fff;
+			color: blueviolet;
+			transition: all 0.3s;
+			cursor: pointer;
+		}
+
+		.section2 .secbox .secbox1 .box3 .inpobox:hover {
+			background-color: rgba(255, 255, 255, 0.3);
+			transition: all 0.4s;
+		}
+
+		.section3 .secbox .bigbox .box2 .timebox:hover {
+			background-color: rgba(255, 255, 255, 0.3);
+			transition: all 0.4s;
+		}
+
+		.section3 .secbox .bigbox .box2 .timebox button:hover {
+			background-color: #ff4198;
+			color: #fff;
+			transition: all 0.4s;
+			cursor: pointer;
+		}
+
+		.section5 .secbox .bigbox .ticbox .shapebox button:hover {
+			background-color: #fff;
+			color: #2a1744;
+			transition: all 0.4s;
+			cursor: pointer;
+		}
+
+		.section7 .secbox .bigbox .wrapbox .box2 button:hover {
+			background-color: #ff4198;
+			color: #fff;
+			transition: all 0.4s;
+			cursor: pointer;
+		}
+
+		.a:hover {
+			opacity: 0.8;
+			cursor: pointer;
+			transition: all 0.4s;
+		}

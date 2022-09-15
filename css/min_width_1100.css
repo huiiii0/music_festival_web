@@ -1,0 +1,771 @@
+		@media (min-width:1100px) {
+
+			/*���*/
+			header {
+				position: absolute;
+				width: 100vw;
+				height: 100px;
+				background-color: rgba(0, 0, 0, 0.3);
+				z-index: 3;
+			}
+
+			#headbox {
+				width: 70%;
+				height: 100%;
+				margin: 0 auto;
+				display: flex;
+				flex-flow: row;
+				align-items: center;
+			}
+
+			#headbox #logo {
+				width: 200px;
+				height: 100%;
+			}
+
+			#logo>img {
+				width: 100%;
+				height: 100%;
+			}
+
+			.a {
+				display: none;
+			}
+
+			.b {
+				display: block
+			}
+
+			#headbox nav ul {
+				display: flex;
+				flex-flow: row;
+			}
+
+			nav ul li a {
+				text-decoration: none;
+				color: #fff;
+				font-size: 16px;
+				padding: 15px;
+				font-weight: bold;
+			}
+
+
+
+			/*����1*/
+			.section1 {
+				width: 1200px;
+				height: 100vh;
+				background-image: url(../img/sec1.avif);
+				background-size: cover;
+				background-position: center;
+				display: flex;
+				align-items: center;
+			}
+
+			.section1 .secbox {
+				width: 70%;
+				height: 100%;
+				margin: 0 auto;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-between;
+				align-items: center;
+			}
+
+			.section1 .secbox .secbox1 {
+				width: 45%;
+				height: 50%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: flex-start;
+			}
+
+			.section1 .secbox .secbox1 .box1 {
+				width: 100%;
+				height: 60%;
+			}
+
+			.section1 .secbox .secbox1 .box1 h1 {
+				color: #fff;
+				font-size: 70px;
+				line-height: 95px;
+			}
+
+			.section1 .secbox .secbox1 .box2 {
+				width: 100%;
+				height: 10%;
+			}
+
+			.section1 .secbox .secbox1 .box2 p {
+				color: #fff;
+				font-size: 17px;
+			}
+
+			.section1 .secbox .secbox1 button {
+				font-size: 18px;
+				font-weight: bold;
+				background-color: rgba(0, 0, 0, 0);
+				border: 3px solid #fff;
+				color: #fff;
+				padding: 10px 20px;
+			}
+
+
+			.section1 .secbox .secbox2 {
+				width: 45%;
+				height: 50%;
+				display: flex;
+				justify-content: flex-end;
+			}
+
+			#timetable {
+				width: 90%;
+				height: 60%;
+				display: flex;
+				flex-flow: row wrap;
+			}
+
+			#timetable .timebox {
+				width: 49%;
+				height: 50%;
+				margin: 0.5px;
+				display: flex;
+			}
+
+			#timetable .timebox:nth-of-type(1) {
+				border-right: 1px solid #fff;
+				border-bottom: 2px solid #fff;
+			}
+
+			#timetable .timebox:nth-of-type(2) {
+				border-left: 1px solid #fff;
+				border-bottom: 2px solid #fff;
+			}
+
+			#timetable .timebox:nth-of-type(3) {
+				border-right: 1px solid #fff;
+			}
+
+			#timetable .timebox:nth-of-type(4) {
+				border-left: 1px solid #fff;
+			}
+
+			.timebox .t1 {
+				width: 20%;
+				height: 100%;
+				font-size: 17px;
+				color: #fff;
+				font-weight: bold;
+			}
+
+			.timebox .t2 {
+				width: 50%;
+				height: 100%;
+				font-size: 60px;
+				color: #fff;
+				font-weight: bold;
+				padding: 15px
+			}
+
+
+			/*����2*/
+			.section2 {
+				width: 1920px;
+				height: 100vh;
+				background-image: url(../img/sec2.avif);
+				background-size: cover;
+				background-position: center;
+			}
+
+			.section2 .secbox {
+				width: 70%;
+				height: 100%;
+				margin: 0 auto;
+				display: flex;
+				align-items: center;
+			}
+
+			.section2 .secbox .secbox1 {
+				width: 65%;
+				height: 60%;
+				display: flex;
+				flex-flow: row wrap;
+				align-content: space-between
+			}
+
+			.section2 .secbox .secbox1 .box1 {
+				width: 100%;
+				height: 20%;
+			}
+
+			.section2 .secbox .secbox1 .box1 h1 {
+				font-size: 70px;
+				color: #fff;
+				padding: 10px;
+			}
+
+			.section2 .secbox .secbox1 .box2 {
+				width: 100%;
+				height: 20%;
+			}
+
+			.section2 .secbox .secbox1 .box2 p {
+				color: #fff;
+				font-size: 17px;
+				padding: 10px;
+			}
+
+			.section2 .secbox .secbox1 .box3 {
+				width: 100%;
+				height: 45%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-evenly;
+				align-items: center;
+			}
+
+			.section2 .secbox .secbox1 .box3 .inpobox {
+				width: 45%;
+				height: 80%;
+				background-color: rgba(255, 255, 255, 0.2);
+				margin: 10px;
+				display: flex;
+				flex-flow: row wrap;
+			}
+
+
+			.section2 .secbox .secbox1 .box3 .inpobox .imgbox {
+				width: 100%;
+				height: 30%;
+				display: flex;
+				justify-content: flex-end;
+			}
+
+			.section2 .secbox .secbox1 .box3 .inpobox .imgbox img {
+				width: 20%;
+				height: 100%;
+			}
+
+			.section2 .secbox .secbox1 .box3 .inpobox h4 {
+				color: #fff;
+				font-size: 20px;
+				padding: 10px;
+			}
+
+			.section2 .secbox .secbox1 .box3 .inpobox p {
+				color: #fff;
+				font-size: 14px;
+				padding: 10px;
+			}
+
+			.section2 .secbox .secbox2 {
+				width: 35%;
+				height: 60%;
+				display: flex;
+				align-items: flex-end;
+				justify-content: flex-end;
+			}
+
+			.section2 .secbox .secbox2 .bigbox {
+				width: 80%;
+				height: 80%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: flex-start;
+				align-content: center;
+			}
+
+			.section2 .secbox .secbox2 .bigbox .box {
+				width: 95%;
+				height: 30%;
+				margin: 5px;
+				display: flex;
+			}
+
+			.section2 .secbox .secbox2 .bigbox .box .tbox1 {
+				width: 35%;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.section2 .secbox .secbox2 .bigbox .box .tbox1 h2 {
+				color: #ff4198;
+				font-size: 70px;
+			}
+
+			.section2 .secbox .secbox2 .bigbox .box .tbox2 {
+				width: 65%;
+				height: 100%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: flex-start;
+				align-content: center;
+			}
+
+			.section2 .secbox .secbox2 .bigbox .box .tbox2 h3 {
+				color: #fff;
+				font-size: 25px;
+			}
+
+			.section2 .secbox .secbox2 .bigbox .box .tbox2 p {
+				color: #fff;
+				font-size: 25px;
+			}
+
+
+			/*����3*/
+			.section3 {
+				width: 1920px;
+				height: 100vh;
+				background-image: url(../img/sec3.avif);
+				background-size: cover;
+				background-position: center;
+			}
+
+			.section3 .secbox {
+				width: 70%;
+				height: 100%;
+				margin: 0 auto;
+				display: flex;
+				align-items: center;
+			}
+
+			.section3 .secbox .bigbox {
+				width: 100%;
+				height: 60%;
+			}
+
+			.section3 .secbox .bigbox .box1 {
+				width: 100%;
+				height: 20%;
+			}
+
+			.section3 .secbox .bigbox .box1 h1 {
+				color: #fff;
+				font-size: 70px;
+				padding: 10px;
+			}
+
+			.section3 .secbox .bigbox .box2 {
+				width: 100%;
+				height: 80%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-evenly;
+				align-items: center;
+			}
+
+			.section3 .secbox .bigbox .box2 .timebox {
+				width: 22%;
+				height: 75%;
+				background-color: rgba(255, 255, 255, 0.2);
+				margin: 10px;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+				align-content: space-around;
+			}
+
+			.section3 .secbox .bigbox .box2 .timebox .imgbox {
+				width: 100%;
+				height: 20%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.section3 .secbox .bigbox .box2 .timebox .imgbox img {
+				width: 50px;
+				height: 50px;
+			}
+
+			.section3 .secbox .bigbox .box2 .timebox .textbox {
+				width: 100%;
+				height: 40%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+				align-content: center;
+			}
+
+			.section3 .secbox .bigbox .box2 .timebox .textbox .span1 {
+				color: blueviolet;
+				font-weight: bold;
+				font-size: 15px;
+				padding: 5px;
+			}
+
+			.section3 .secbox .bigbox .box2 .timebox .textbox h3 {
+				color: #fff;
+				font-size: 16px;
+				padding: 5px;
+			}
+
+
+			.section3 .secbox .bigbox .box2 .timebox .textbox h4 {
+				color: #fff;
+				padding: 5px
+			}
+
+			.section3 .secbox .bigbox .box2 .timebox .textbox .span2 {
+				color: #ff4198;
+				font-weight: bold;
+				padding: 5px;
+			}
+
+			.section3 .secbox .bigbox .box2 .timebox button {
+				background-color: rgba(0, 0, 0, 0);
+				border: 3px solid #ff4198;
+				color: #ff4198;
+				font-weight: bold;
+				padding: 10px 20px;
+			}
+
+
+
+			/*����4*/
+			.section4 {
+				width: 1920px;
+				height: 100vh;
+				background-image: url(../img/sec4.avif);
+				background-size: cover;
+				background-position: center;
+			}
+
+			.section4 .secbox {
+				width: 70%;
+				height: 100%;
+				margin: 0 auto;
+				display: flex;
+				align-items: center;
+			}
+
+			.section4 .secbox .bigbox {
+				width: 100%;
+				height: 60%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+				align-content: center;
+			}
+
+			.section4 .secbox .bigbox h1 {
+				color: #fff;
+				font-size: 55px;
+				padding: 30px;
+			}
+
+			.section4 .secbox .bigbox .imgbox {
+				width: 100%;
+				height: 20%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.section4 .secbox .bigbox .imgbox img {
+				width: 90px;
+				height: 90px;
+			}
+
+			.section4 .secbox .bigbox h2 {
+				color: #fff;
+				font-size: 30px;
+				padding: 30px;
+			}
+
+
+			/*����5*/
+			.section5 {
+				width: 1920px;
+				height: 100vh;
+				background-image: url(../img/sec5.jpg);
+				background-size: cover;
+				background-position: center;
+			}
+
+			.section5 .secbox {
+				width: 70%;
+				height: 100%;
+				margin: 0 auto;
+				display: flex;
+				align-items: center;
+			}
+
+			.section5 .secbox .bigbox {
+				width: 100%;
+				height: 60%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: flex-start;
+				align-content: center;
+			}
+
+			.section5 .secbox .bigbox h1 {
+				color: #fff;
+				font-size: 70px;
+				padding: 10px 10px 30px 10px;
+			}
+
+			.section5 .secbox .bigbox .ticbox {
+				width: 100%;
+				height: 70%;
+				display: flex;
+				flex-flow: row wrap;
+			}
+
+			.section5 .secbox .bigbox .ticbox .box {
+				width: 20%;
+				height: 80%;
+				margin: 10px;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-between;
+			}
+
+			.section5 .secbox .bigbox .ticbox .box .textbox {
+				width: 100%;
+				height: 90%;
+				background-color: #2a1744;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+			}
+
+			.section5 .secbox .bigbox .ticbox .box h3 {
+				color: #fff;
+				font-size: 25px;
+				padding: 10px;
+			}
+
+			.section5 .secbox .bigbox .ticbox .box h1 {
+				color: #fff;
+				font-size: 60px;
+			}
+
+			.section5 .secbox .bigbox .ticbox .box p {
+				color: #fff;
+				font-size: 15px;
+				text-align: center;
+				padding: 5px;
+			}
+
+			.section5 .secbox .bigbox .ticbox .shapebox {
+				width: 100%;
+				height: 20%;
+				background-color: #ff4198;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.section5 .secbox .bigbox .ticbox .shapebox button {
+				background-color: #2a1744;
+				border: 0;
+				color: #fff;
+				font-weight: bold;
+				padding: 5px 10px;
+			}
+
+
+
+			/*����6*/
+			.section6 {
+				width: 100%;
+				height: 100vh;
+				background-image: url(../img/sec6.avif);
+				background-size: cover;
+				background-position: center;
+			}
+
+			.section6 .secbox {
+				width: 70%;
+				height: 100%;
+				margin: 0 auto;
+				display: flex;
+				align-items: center;
+			}
+
+			.section6 .secbox .bigbox {
+				width: 100%;
+				height: 60%;
+				display: flex;
+				flex-flow: row wrap;
+			}
+
+			.section6 .secbox .bigbox h1 {
+				color: #fff;
+				font-size: 70px;
+				padding: 70px 70px 0 70px;
+			}
+
+			.section6 .secbox .bigbox .imgbox {
+				width: 100%;
+				height: 90%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-evenly;
+				align-content: center;
+			}
+
+			.section6 .secbox .bigbox .imgbox .iconbox {
+				width: 20%;
+				height: 40%;
+				margin: 10px;
+			}
+
+			.section6 .secbox .bigbox .imgbox .iconbox img {
+				width: 100%;
+				height: 100%;
+			}
+
+
+			/*����7*/
+			.section7 {
+				width: 100%;
+				height: 100vh;
+				background-image: url(../img/sec7.avif);
+				background-size: cover;
+				background-position: center;
+			}
+
+			.section7 .secbox {
+				width: 70%;
+				height: 100%;
+				margin: 0 auto;
+				display: flex;
+				align-items: center;
+			}
+
+			.section7 .secbox .bigbox {
+				width: 100%;
+				height: 60%;
+				display: flex;
+				flex-flow: row wrap;
+			}
+
+			.section7 .secbox .bigbox .textbox {
+				width: 100%;
+				height: 20%;
+			}
+
+			.section7 .secbox .bigbox .textbox h1 {
+				color: #fff;
+				font-size: 70px;
+				padding: 10px;
+			}
+
+			.section7 .secbox .bigbox .wrapbox {
+				width: 100%;
+				height: 80%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-between;
+			}
+
+			.section7 .secbox .bigbox .wrapbox .box1 {
+				width: 45%;
+				height: 100%;
+				display: flex;
+				flex-flow: row wrap;
+				align-content: center;
+			}
+
+			.section7 .secbox .bigbox .wrapbox .box1 .p1 {
+				color: #fff;
+				font-size: 18px;
+				padding: 20px;
+			}
+
+			.section7 .secbox .bigbox .wrapbox .box1 h2 {
+				color: #fff;
+				font-size: 25px;
+				width: 100%;
+				padding: 20px;
+			}
+
+			.section7 .secbox .bigbox .wrapbox .box1 .p2 {
+				color: #ff4198;
+				font-size: 17px;
+				padding: 20px;
+			}
+
+			.section7 .secbox .bigbox .wrapbox .box1 .iconbox {
+				width: 100%;
+				height: 10%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: flex-start;
+				align-items: center;
+			}
+
+			.section7 .secbox .bigbox .wrapbox .box1 .iconbox .imgbox {
+				width: 5%;
+				height: 70%;
+				margin: 7px 7px 7px 20px;
+			}
+
+			.section7 .secbox .bigbox .wrapbox .box1 .iconbox .imgbox img {
+				width: 100%;
+				height: 100%;
+			}
+
+			.section7 .secbox .bigbox .wrapbox .box1 .p3 {
+				color: #666;
+				font-size: 17px;
+				padding: 20px;
+			}
+
+			.section7 .secbox .bigbox .wrapbox .box1 span {
+				color: blueviolet;
+				font-size: 17px;
+				padding: 20px;
+			}
+
+
+			.section7 .secbox .bigbox .wrapbox .box2 {
+				width: 45%;
+				height: 70%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: flex-start;
+				align-content: center;
+			}
+
+			.section7 .secbox .bigbox .wrapbox .box2 h3 {
+				width: 100%;
+				height: 10%;
+				color: #fff;
+				font-size: 25px;
+				padding: 10px;
+			}
+
+			.section7 .secbox .bigbox .wrapbox .box2 p {
+				width: 100%;
+				height: 10%;
+				color: #666;
+				padding: 20px 10px 10px 10px;
+			}
+
+			.section7 .secbox .bigbox .wrapbox .box2 .mail {
+				width: 70%;
+				height: 10%;
+				border: 0;
+				background-color: rgba(255, 255, 255, 0.2);
+				margin: 30px 0 0 10px;
+			}
+
+			.section7 .secbox .bigbox .wrapbox .box2 button {
+				background-color: rgba(0, 0, 0, 0);
+				border: 3px solid #ff4198;
+				color: #ff4198;
+				width: 60%;
+				height: 15%;
+				font-weight: bold;
+				font-size: 17px;
+				margin: 30px 0 0 10px;
+			}
+		}
